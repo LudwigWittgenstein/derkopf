@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+.menuMain {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 50px;
+  background: #0000ff54;
+  font-size: 2.5rem;
+  letter-spacing: 1.5px;
+  color: white;
+}
+
+.menuMain > p {
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: -webkit-fill-available;
+  width: 100%;
+  position: absolute;
+}
